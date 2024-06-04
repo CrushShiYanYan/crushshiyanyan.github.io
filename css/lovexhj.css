@@ -59,6 +59,7 @@ a:hover {
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: blur(10px); /* 模糊度可以根据需要调整 */
 }
 
 /* 标题板块 */
@@ -113,7 +114,6 @@ a:hover {
 
 /* 分页2 - 时间轴 */
 .page2 {
-    background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/bg2.jpg);
 }
 
 .swiper-container-lovexhj2 
@@ -139,9 +139,19 @@ a:hover {
 /* 分页3 - 一段话 */
 .page3 {
     background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/bg3.jpg);
-    padding-top: 200px;
-    height: 700px;
+    padding-top: 20px;
+    height: 800px;
+    backdrop-filter: blur(1px); /* 模糊度可以根据需要调整 */
+}.swiper-container-lovexhj11 {
+    width: 750px;
+    height: 600px;
 }
+
+.page1-lovexhj11 img {
+    width: 700px;
+    height: 500px;
+}
+
 
 #talkToXHJ {
     width: 750px;
