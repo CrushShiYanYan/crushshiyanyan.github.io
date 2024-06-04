@@ -3,7 +3,11 @@ var swiper = new Swiper('.swiper-container-lovexhj1', {
     paginationClickable: true,
     spaceBetween: 30,
 });
-
+var swiper = new Swiper('.swiper-container-lovexhj11', {
+    pagination: '.swiper-pagination-lovexhj11',
+    paginationClickable: true,
+    spaceBetween: 30,
+});
 var swiper = new Swiper('.swiper-container-lovexhj2', {
     pagination: '.swiper-pagination-lovexhj2',
     effect: 'coverflow',
